@@ -1,0 +1,42 @@
+body{
+  font-family: 'Software tester 7';
+  background-color: black;
+}
+
+.timer-container{
+  width: 95%;
+  background-color: yellowgreen;
+  border: 5px solid gray;
+  border-radius: 2px;
+  margin: 19% auto auto auto;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-size: 120px;
+  margin: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.buttons button{
+  text-align: center;
+  font-size: 30px;
+  width: 600px;
+}
+
+@font-face {
+  font-family: 'Software tester 7';
+  src: url("fonts/software_tester_7.ttf") format("truetype");
+}
+
+@media (max-width: 610px) {
+  h1{
+    font-size: 67px;
+  }
+}
