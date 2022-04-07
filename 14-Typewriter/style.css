@@ -1,0 +1,24 @@
+body{
+  font-family: 'Neuropol X';
+  letter-spacing: 2px;
+  padding: 20px;
+  font-size: 22px;
+  background-color: black;
+  color: #00FFFF;
+  text-shadow: 0 0 10px #00FFFF;
+}
+
+span{
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50%{
+    opacity: 0;
+  }
+}
+
+@font-face {
+  font-family: 'Neuropol X';
+  src: url("fonts/neuropol x free.ttf") format("truetype");
+}
